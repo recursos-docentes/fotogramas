@@ -98,6 +98,7 @@ function generarGrillaDesdeCeldaActiva() {
   
   Logger.log("Galería generada con éxito.");
 }
+```
 
 ## 💡 Notas para el Docente
 
