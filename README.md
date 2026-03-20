@@ -31,13 +31,6 @@ Para que el script funcione correctamente, debés definir dos ubicaciones clave 
     * `filaInicioNombres`: El número de fila donde empieza el primer alumno (ej: `2`).
 4.  Guarda el proyecto con el icono del disco.
 
-### 🖱️ Cómo crear un Botón (Recomendado)
-Para que tus colegas usen el script sin entrar al código:
-1.  En la hoja, ve a **Insertar > Dibujo** y crea una forma con el texto "GENERAR GALERÍA".
-2.  Presiona **Guardar y cerrar**.
-3.  Haz clic derecho sobre el dibujo, pulsa los tres puntos (**⋮**) y elige **Asignar secuencia de comandos**.
-4.  Escribe: `generarGaleriaConfigurable` y acepta.
-
 ---
 
 ## 💻 El Código (codigo.gs)
@@ -115,8 +108,7 @@ function generarGaleriaConfigurable() {
   
   ui.alert("✅ Proceso completado con éxito.");
 }
-
-'''
+```
 
 ## 🔐 Recomendaciones de Seguridad y Acceso
 
