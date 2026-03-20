@@ -116,8 +116,13 @@ function generarGaleriaConfigurable() {
   ui.alert("✅ Proceso completado con éxito.");
 }
 
-''''
-## 💡 Notas para el Docente
+'''
 
+## 🔐 Recomendaciones de Seguridad y Acceso
+
+* **Usar Ventana de Incógnito:** Para evitar conflictos si tenés varias cuentas de Google abiertas (personal, institucional, etc.), es **muy recomendable** abrir la planilla en una ventana de incógnito. Esto asegura que el script use los permisos de la cuenta correcta.
+* **Ejemplo de ID de Carpeta:** El ID es el código alfanumérico que aparece al final de la URL de tu carpeta en Drive.
+    * *Si tu URL es:* `https://drive.google.com/drive/folders/1A2b3C4d5E6f7G8h9I0jK1lM2nO3pQ4rS`
+    * *El ID que debés copiar es:* `1A2b3C4d5E6f7G8h9I0jK1lM2nO3pQ4rS`
 * **Permisos:** La primera vez que se ejecute, Google solicitará autorización para acceder a Drive y Sheets. Es un proceso estándar de seguridad.
 * **Proporción:** Si cambias el valor de `altoImagen`, el script ajustará automáticamente tanto las filas como las columnas para mantener la simetría.
