@@ -112,9 +112,14 @@ function generarGaleriaConfigurable() {
 
 ## 🔐 Recomendaciones de Seguridad y Acceso
 
-* **Usar Ventana de Incógnito:** Para evitar conflictos si tenés varias cuentas de Google abiertas (personal, institucional, etc.), es **muy recomendable** abrir la planilla en una ventana de incógnito. Esto asegura que el script use los permisos de la cuenta correcta.
-* **Ejemplo de ID de Carpeta:** El ID es el código alfanumérico que aparece al final de la URL de tu carpeta en Drive.
-    * *Si tu URL es:* `https://drive.google.com/drive/folders/1A2b3C4d5E6f7G8h9I0jK1lM2nO3pQ4rS`
-    * *El ID que debés copiar es:* `1A2b3C4d5E6f7G8h9I0jK1lM2nO3pQ4rS`
-* **Permisos:** La primera vez que se ejecute, Google solicitará autorización para acceder a Drive y Sheets. Es un proceso estándar de seguridad.
-* **Proporción:** Si cambias el valor de `altoImagen`, el script ajustará automáticamente tanto las filas como las columnas para mantener la simetría.
+* **Ventana de Incógnito:** Si usás varias cuentas de Google (personal y @ceibal o @utu), es **muy recomendable** abrir la planilla en una ventana de incógnito. Esto evita errores de permisos al ejecutar el script.
+* **ID de la Carpeta:** Es el código alfanumérico que aparece al final de la URL de tu carpeta en Drive.
+    * *Ejemplo de URL:* `https://drive.google.com/drive/folders/1A2b3C4d5E6f7G8h9I0jK1lM2nO3pQ4rS`
+    * *El ID a copiar es:* `1A2b3C4d5E6f7G8h9I0jK1lM2nO3pQ4rS`
+
+## 📋 Tip para el Portafolio Docente
+Si necesitás la lista de nombres actualizada para que coincida con tus fotos:
+1. Entrá a tu **Portafolio Docente** de UTU.
+2. Descargá la lista de alumnos del grupo correspondiente (generalmente en formato Excel/CSV).
+3. Copiá la columna de nombres y pegala en la columna de tu planilla (ej. Columna `H`).
+4. ¡Listo! El script asociará cada foto al nombre oficial del estudiante de forma automática.
