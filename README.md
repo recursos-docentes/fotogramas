@@ -18,7 +18,7 @@ Para que el script funcione correctamente, debés definir dos ubicaciones clave 
 
 1.  **¿Dónde empieza la Galería?**: El script comenzará a insertar las fotos en la **celda donde tengas el cursor posicionado (Celda Activa)** al momento de darle "Ejecutar" o presionar el botón. **Asegurate de hacer clic en la celda inicial (ej. `A1`) antes de empezar.**
 2.  **¿Dónde está tu lista de nombres?**: Debés tener una columna con los nombres de los estudiantes (ej. Columna `H`). El script tomará el primer nombre de esa lista para la primera foto, el segundo para la segunda, y así sucesivamente.
-3.  **La carpeta con las fotos a insertar tiene que estar compartida con cualquier persona que tenga el enlace**
+3.  **Asegurate de que la carpeta en Drive  tenga el acceso configurado como "Cualquier persona con el enlace" en modo Lector**
 
 ---
 
